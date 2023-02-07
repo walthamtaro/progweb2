@@ -19,8 +19,10 @@ jobs:
           dotnet-version: 6.0.x
 
       - uses: retypeapp/action-build@latest
+        with:
+          license: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
           branch: retype
-          github-token: ${{ secrets.RETYPE_SECRET }}
+          update-branch: true
