@@ -54,7 +54,7 @@ En este caso el _action_ apunta al método **store()** que es el que guardará e
 
 El _action_ utiliza la URI asociada, pero también puede usarse el _route name_ a través del método route().
 
-```php 
+```html 
 <form action="{{route('anecdotas.store')}}" method="POST">
 ```
 

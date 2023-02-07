@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://github.com/walthamtaro/progweb2/sitemap.xml.gz
