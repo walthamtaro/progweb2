@@ -1,4 +1,4 @@
-name: Publish Retype powered website to GitHub
+name: Publish Retype powered website to GitHub Pages
 on:
   workflow_dispatch:
   push:
@@ -7,22 +7,15 @@ on:
 
 jobs:
   publish:
-    name: Publish to the retype branch
+    name: Publish to retype branch
 
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: 6.0.x
-
       - uses: retypeapp/action-build@latest
-        with:
-          license: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
-          branch: retype
           update-branch: true
