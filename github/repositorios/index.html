@@ -9,24 +9,26 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>copia del atributo</title>
-    <meta name="title" content="copia del atributo">
-    <meta name="description" content="Es una modificación del tipo de dato que tiene asociado un atributo." />
+    <title>Creando repositorios</title>
+    <meta name="title" content="Creando repositorios">
+    <meta name="description" content="Esta herramienta es útil para llevar el seguimiento de versiones de proyectos de software." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://walthamtaro.github.io/accesors-y-mutators/casting/" />
+    <link rel="canonical" href="https://walthamtaro.github.io/github/repositorios/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://walthamtaro.github.io/accesors-y-mutators/casting/">
-    <meta property="og:title" content="copia del atributo">
-    <meta property="og:description" content="Es una modificación del tipo de dato que tiene asociado un atributo.">
+    <meta property="og:url" content="https://walthamtaro.github.io/github/repositorios/">
+    <meta property="og:title" content="Creando repositorios">
+    <meta property="og:description" content="Esta herramienta es útil para llevar el seguimiento de versiones de proyectos de software.">
+    <meta property="og:image" content="https://walthamtaro.github.io/img/github/crearrepositorio.jpeg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://walthamtaro.github.io/accesors-y-mutators/casting/">
-    <meta property="twitter:title" content="copia del atributo">
-    <meta property="twitter:description" content="Es una modificación del tipo de dato que tiene asociado un atributo.">
+    <meta property="twitter:url" content="https://walthamtaro.github.io/github/repositorios/">
+    <meta property="twitter:title" content="Creando repositorios">
+    <meta property="twitter:description" content="Esta herramienta es útil para llevar el seguimiento de versiones de proyectos de software.">
+    <meta property="twitter:image" content="https://walthamtaro.github.io/img/github/crearrepositorio.jpeg">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -167,37 +169,96 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="copia-del-atributo" class="break-words">
+<doc-anchor-target id="creando-repositorios" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#copia-del-atributo">#</doc-anchor-trigger>
-        <span>copia del atributo</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creando-repositorios">#</doc-anchor-trigger>
+        <span>Creando repositorios</span>
     </h1>
 </doc-anchor-target>
-<p>Es una modificación del tipo de dato que tiene asociado un atributo. Por ejemplo, un campo que guarda 0 y 1, quizás como tipo de dato entero o varchar, puede ser modificado por el <em>cast</em> para que se interprete como dato booleano y así utilizarlo directamente en condicionales.</p>
-<p>La sintaxis de un cast</p>
-<div class="codeblock-wrapper"><doc-codeblock line-numbers>
-<pre class="language-php"><code v-pre class="language-php">protected $casts = [
-        'is_admin' =&gt; 'boolean',
-    ];</code></pre>
-</doc-codeblock></div>
-<p>En este ejemplo se entiende que hay una columna llamada <em>is_admin</em> en la tabla que referencia este modelo y a la cuál se le cambia el tipo de dato como booleano, es decir, verdadero o falso.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>El tipo de dato se modifica durante su lectura y uso no en la base de datos. Este cambio no es permanente</p>
-        </div>
+<p>Esta herramienta es útil para llevar el seguimiento de versiones de proyectos de software. Los repositorios permiten la reutilización de código útil en diferentes proyectos y mantener la consistencia e integridad cuando se trabaja en equipo. Ademas conservas copias en línea accesibles desde otros dispositivos y no quedas sujeto a un PC o disco duro en particular.</p>
+<p>Para utilizarlo puedes hacerlo desde la web, usando su cliente para Windows o usando <strong>GIT</strong> desde la línea de comandos.</p>
+<doc-anchor-target id="primero-lo-primero">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#primero-lo-primero">#</doc-anchor-trigger>
+        <span>Primero lo primero</span>
+    </h2>
+</doc-anchor-target>
+<p>Regístrate e inicia sesión en la plataforma <strong>GITHUB</strong> para tener acceso a sus repositorios.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">GITHUB</span>
     </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>https://github.com/</span>
+    </div>
+    <a href="https://github.com/" target="_blank" class="absolute block inset-0"></a>
 </div>
+</p>
+<p>Igualmente descarga e instala GIT para sus acciones por línea de comandos.</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
+    <div class="flex items-center text-blue-500 dark:text-blue-400">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">GIT</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>https://git-scm.com/</span>
+    </div>
+    <a href="https://git-scm.com/" target="_blank" class="absolute block inset-0"></a>
+</div>
+</p>
+<doc-anchor-target id="crea-un-repositorio-local-y-remoto">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crea-un-repositorio-local-y-remoto">#</doc-anchor-trigger>
+        <span>Crea un repositorio local y remoto</span>
+    </h2>
+</doc-anchor-target>
+<p>Los repositorios son locales y remotos. Los primeros están en tu PC y los segundos en la plataforma GITHUB. Estos deben estar <em>enlazados</em> para mantener la consistencia e integridad. Así cada cambio que se realice en el código puede replicarse en sus copias.</p>
+<doc-anchor-target id="crear-repositorio-en-github">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crear-repositorio-en-github">#</doc-anchor-trigger>
+        <span>Crear repositorio en GITHUB</span>
+    </h3>
+</doc-anchor-target>
+<p>Ahora, en la plataforma GITHUB busca la opción de crear repositorio (botón <em>new</em>). Asigna un nombre, marca como público o privado según consideres, agrega el README file y crea el repositorio.</p>
+<p><figure class="content-center">
+    <img src="../../img/github/crearrepositorio.jpeg" alt="página de creación de repositorios" />
+    <figcaption class="caption">página de creación de repositorios</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="clonar-el-repositorio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clonar-el-repositorio">#</doc-anchor-trigger>
+        <span>Clonar el repositorio</span>
+    </h3>
+</doc-anchor-target>
+<p>Una vez creado el repositorio busca el botón CODE y copia la ruta para <em>clonar</em> y ejecuta en el CMD:</p>
+<p><figure class="content-center">
+    <img src="../../img/github/clonarrepositorio.jpeg" alt="URL para clonar el repositorio" />
+    <figcaption class="caption">URL para clonar el repositorio</figcaption>
+</figure>
+</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-batch"><code v-pre class="language-batch">C:\Users\~\progweb2\githubEjemplo&gt;git clone https://github.com/walthamtaro/githubEjemplo.git
+Cloning into 'githubEjemplo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.</code></pre>
+</doc-codeblock></div>
+<p>En este punto podrás ver en tu directorio locar el archivo README que indicaste cuando creaste el repositorio.</p>
+<p>Para confirmar que tu proyecto está enlazado usa esta instrucción:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-batch"><code v-pre class="language-batch">C:\Users\hamae\~\githubEjemplo&gt;git remote -v
+origin  https://github.com/walthamtaro/githubEjemplo.git (fetch)
+origin  https://github.com/walthamtaro/githubEjemplo.git (push)</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -207,20 +268,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../accesors-y-mutators/accessors/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../github/actualizando-repositorio/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Accesors</span>
+                                                <span class="block mt-1">Actualizando repositorios</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../accesors-y-mutators/mutator/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../roles-de-usuario/asignando-roles/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Mutators</span>
+                                                <span class="block mt-1">Asignando roles al user</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -264,6 +325,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "copia del atributo", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Creando repositorios", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
