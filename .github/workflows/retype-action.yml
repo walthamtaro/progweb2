@@ -20,7 +20,7 @@ jobs:
 
       - uses: retypeapp/action-build@v2
 
-      - uses: retypeapp/action-github-pages@latest
+      - uses: retypeapp/action-github-pages@v2
         with:
           branch: retype
           update-branch: true
