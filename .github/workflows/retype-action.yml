@@ -19,6 +19,8 @@ jobs:
           dotnet-version: 6.0.x
 
       - uses: retypeapp/action-build@v2
+        with:
+          license: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@v2
         with:
